@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: ;
+  --secondary-color: ;
+  --background-color: ; 
+  --heading-color: ;
+  --paragraph-color: ;
+}
+
+.main-container {
+  max-width: 1440px;
+  padding: 0px 20px;
+  margin: auto;
+}
