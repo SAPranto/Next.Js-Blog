@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="navbar-wrapper flex justify-between items-center py-3">
           <div className="flex justify-start items-center gap-14">
             <div>
-              <img src="./logo.webp" alt="logo" width={160} />
+              <img src="./logo.webp" alt="Main Logo" width={160} />
             </div>
             <ul
               className={`md:flex gap-5 text-sm items-center ${
