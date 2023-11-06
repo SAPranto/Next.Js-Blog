@@ -20,10 +20,8 @@ const Navbar = () => {
               <img src="./logo.webp" alt="Main Logo" width={160} />
             </div>
             <ul
-              className={`md:flex gap-5 text-sm items-center ${
-                isNavOpen
-                  ? "flex flex-col gap-10 absolute right-0 top-0 bg-slate-500 text-center p-12 md:hidden"
-                  : "hidden"
+              className={`md:flex md:gap-5 md:text-sm md:items-center ${
+                isNavOpen ? "nav-dropdown-open" : "hidden"
               }`}
             >
               <li className="cursor-pointer">
