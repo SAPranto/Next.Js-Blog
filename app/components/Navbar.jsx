@@ -17,14 +17,14 @@ const Navbar = () => {
         <div className="navbar-wrapper flex justify-between items-center py-3">
           <div className="flex justify-start items-center gap-14">
             <div>
-              <img src="./logo.webp" alt="Main Logo" width={160} />
+              <img src="./logo.webp" alt="Main Logo" width={150} />
             </div>
             <ul
               className={`md:flex md:gap-5 md:text-sm md:items-center ${
                 isNavOpen ? "nav-dropdown-open" : "hidden"
               }`}
             >
-              <li className="cursor-pointer">
+              <li className="cursor-pointer ">
                 <Link href="/">Home</Link>
               </li>
               <li className="cursor-pointer">
@@ -39,7 +39,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex items-center gap-3">
-            <div className="flex justify-start gap-2 text-sm">
+            <div className="flex justify-start gap-2">
               <BiSearchAlt></BiSearchAlt>
               <BiCart></BiCart>
               <BiHeart></BiHeart>
