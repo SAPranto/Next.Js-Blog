@@ -14,13 +14,13 @@ const Navbar = () => {
   return (
     <div className="bg-black text-white relative">
       <div className="main-container">
-        <div className="navbar-wrapper flex justify-between items-center py-3">
+        <div className="navbar-wrapper flex justify-between items-center py-6">
           <div className="flex justify-start items-center gap-14">
             <div>
               <img src="./logo.webp" alt="Main Logo" width={150} />
             </div>
             <ul
-              className={`md:flex md:gap-5 md:text-sm md:items-center ${
+              className={`md:flex md:gap-5 md:text-sm md:items-center font-semibold ${
                 isNavOpen ? "nav-dropdown-open" : "hidden"
               }`}
             >
@@ -39,7 +39,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex items-center gap-3">
-            <div className="flex justify-start gap-2">
+            <div className="flex justify-start gap-3">
               <BiSearchAlt></BiSearchAlt>
               <BiCart></BiCart>
               <BiHeart></BiHeart>
