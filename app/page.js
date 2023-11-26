@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import HeroSection from './components/HeroSection'
-import CategorySlider from './components/CategorySlider'
+import HeroSection from './sections/HeroSection'
+import CategorySection from './sections/CategorySection'
 
 export default function Home() {
   return (
     <>
     <HeroSection/>
-    <CategorySlider/>
+    <CategorySection/>
     </>
   )
 }
