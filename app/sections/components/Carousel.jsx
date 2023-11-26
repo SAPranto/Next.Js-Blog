@@ -19,7 +19,7 @@ const Carousel = () => {
         <div className='w-3/4 m-auto'>
         <Slider {...settings}>
           {data.map((d) => (
-            <div key={d.name} className="text-black rounded-xl ">
+            <div key={d.name} className="text-black rounded-xl">
               <div className='flex justify-center items-center rounded-t-xl'>
                 <img src={d.img} alt="" className="h-40 w-40 object-cover rounded-full"/>
               </div>

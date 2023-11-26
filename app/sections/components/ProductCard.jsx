@@ -10,7 +10,7 @@ const ProductCard = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000
@@ -50,11 +50,11 @@ const ProductCard = () => {
     
   ];
   return (
-    <div className='max-w-md'>
+    <div className=''>
       <Slider {...settings}>
     {product.map((d) => (
-      <div className='bg-white'>
-        <img className='w-full' src="/card1.jpg" alt="" />
+      <div className='bg-white max-w-xs'>
+        <img className='w-full h-[520px] object-cover' src={d.img} alt="" />
         <div className='flex flex-col gap-2 ms-6 mt-4'>
           <h3 className='text-xl font-bold'>{d.name}</h3>
           <span className='text-sm font-semibold'>{d.price}</span>
