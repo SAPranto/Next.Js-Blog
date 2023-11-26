@@ -12,7 +12,7 @@ const Carousel = () => {
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 4000
       };
 
     return (
@@ -20,10 +20,10 @@ const Carousel = () => {
         <Slider {...settings}>
           {data.map((d) => (
             <div key={d.name} className="text-black rounded-xl ">
-              <div className='h-56 flex justify-center items-center rounded-t-xl'>
+              <div className='flex justify-center items-center rounded-t-xl'>
                 <img src={d.img} alt="" className="h-40 w-40 object-cover rounded-full"/>
               </div>
-                <p className="text-sm font-bold text-center">{d.name}</p>
+                <p className="text-sm font-bold text-center mt-2">{d.name}</p>
             </div>
           ))}
         </Slider>
