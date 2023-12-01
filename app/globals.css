@@ -19,7 +19,7 @@ li:hover {
   @apply px-5 py-16 md:py-24 lg:py-32;
 }
 .cont {
-  @apply w-full mx-auto px-4 md:px-5 lg:px-8 max-w-[1400px];
+  @apply w-full mx-auto px-4 md:px-5 lg:px-8 max-w-[1600px];
 }
 .hero {
   position: relative; /* Ensure the pseudo-element is positioned relative to this element */
