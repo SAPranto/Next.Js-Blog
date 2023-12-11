@@ -2,6 +2,7 @@ import Image from 'next/image'
 import HeroSection from './sections/HeroSection'
 import CategorySection from './sections/CategorySection'
 import Highlights from './sections/Highlights'
+import FeaturedSection from './sections/FeaturedSection'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     <HeroSection/>
     <CategorySection/>
     <Highlights/>
+    <FeaturedSection/>
     </>
   )
 }
